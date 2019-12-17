@@ -31,7 +31,7 @@ requirements:
     - {{posix}}coreutils         # [win]
     - {{posix}}zip               # [win]
   host:
-    - r-base
+    - r-base >=3.6
     - r-matrix
     - r-rcpp >=1.0.2
     - r-rcpparmadillo >=0.9.600.4.0
@@ -40,7 +40,7 @@ requirements:
     - r-igraph
     - r-matlab
   run:
-    - r-base
+    - r-base >=3.6
     - {{native}}gcc-libs         # [win]
     - r-matrix
     - r-rcpp >=1.0.2
