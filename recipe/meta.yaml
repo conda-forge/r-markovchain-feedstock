@@ -1,4 +1,4 @@
-{% set version = "0.8.5" %}
+{% set version = "0.8.5-2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/markovchain_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/markovchain/markovchain_{{ version }}.tar.gz
-  sha256: 27785c493726a49798456ceb0b6fb01051a63d1a69ca6b3bcde0307c99b85baf
+  sha256: fc266d7f1d0e191ce6622d2503d1dbe8b822ab48286502fa651ffb8d7b78e37f
 
 build:
   merge_build_host: true  # [win]
