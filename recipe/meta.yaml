@@ -14,7 +14,6 @@ source:
 
 build:
   merge_build_host: true  # [win]
-  skip: true  # [r_base == "3.5.1"]
   number: 0
   rpaths:
     - lib/R/lib/
@@ -58,7 +57,7 @@ test:
 
 about:
   home: http://github.com/spedygiorgio/markovchain/
-  license: GPL-2
+  license: GPL-2.0-only
   summary: Functions and S4 methods to create and manage discrete time Markov chains more easily. In addition functions to perform statistical (fitting and drawing random variates) and probabilistic (analysis of their structural proprieties) analysis are provided.
   license_family: GPL2
   license_file:
