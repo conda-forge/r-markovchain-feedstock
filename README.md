@@ -6,17 +6,17 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-markovchain-f
 About r-markovchain
 -------------------
 
-Home: http://github.com/spedygiorgio/markovchain/
+Home: https://github.com/spedygiorgio/markovchain/
 
-Package license: GPL-2.0-only
+Package license: MIT
 
 Summary: Functions and S4 methods to create and manage discrete time Markov chains more easily. In addition functions to perform statistical (fitting and drawing random variates) and probabilistic (analysis of their structural proprieties) analysis are provided.
 About r-markovchain
 -------------------
 
-Home: http://github.com/spedygiorgio/markovchain/
+Home: https://github.com/spedygiorgio/markovchain/
 
-Package license: GPL-2.0-only
+Package license: MIT
 
 Summary: Functions and S4 methods to create and manage discrete time Markov chains more easily. In addition functions to perform statistical (fitting and drawing random variates) and probabilistic (analysis of their structural proprieties) analysis are provided.
 
