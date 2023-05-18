@@ -63,7 +63,7 @@ test:
     - "\"%R%\" -e \"testthat::test_file('tests/testthat.R', stop_on_failure=TRUE)\""  # [win]
 
 about:
-  home: http://github.com/spedygiorgio/markovchain/
+  home: https://github.com/spedygiorgio/markovchain/
   license: MIT
   summary: Functions and S4 methods to create and manage discrete time Markov chains more easily. In addition functions to perform statistical (fitting and drawing random variates) and probabilistic (analysis of their structural proprieties) analysis are provided.
   license_family: MIT
