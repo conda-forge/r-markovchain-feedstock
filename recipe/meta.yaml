@@ -11,9 +11,7 @@ source:
     - {{ cran_mirror }}/src/contrib/markovchain_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/markovchain/markovchain_{{ version }}.tar.gz
   sha256: eef926d660dbd54362551b7fff64a9f2ac284f1f87bfe07cdffc99632489c77c
-  patches:
-    - patches/0001-min-r41.patch
-
+  
 build:
   merge_build_host: true  # [win]
   number: 0
