@@ -1,4 +1,4 @@
-{% set version = "0.10.3" %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/markovchain_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/markovchain/markovchain_{{ version }}.tar.gz
-  sha256: d9879483a05d4995c31d00f7a0fa7c8b1ba29fbe2a15d34ccd2c7d784ecda701
+  sha256: f7c95801fb35fb8bce6d709fb8be529cef5cfe418cb64324a3877c8ce6c11a5f
 
 build:
   # Checking windows to see if it passes. Uncomment the line if it fails.
